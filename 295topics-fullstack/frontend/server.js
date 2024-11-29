@@ -8,8 +8,8 @@ const packageJsonPath = './package.json';
 
     app = express();
 
-const LOCAL  = 'http://localhost:5000/api/topics';
-const HOST = '0.0.0.0' || 'localhost';
+const LOCAL  = 'http://backend:5000/api/topics';
+const HOST = '0.0.0.0' || 'frontend';
 const PORT = 3000;
 
 app.set('view engine', 'ejs');
